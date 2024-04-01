@@ -1,0 +1,53 @@
+/* contact.css */
+
+/* Container styling */
+.form_container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 130px;
+}
+
+/* Heading styling */
+.heading_container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading_container h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Message box styling */
+.message-box {
+    height: 100px;
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
